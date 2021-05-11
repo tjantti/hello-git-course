@@ -1,0 +1,14 @@
+diff a/basics/mergesort.py b/basics/mergesort.py	(rejected hunks)
+@@ -9,12 +9,10 @@
+ 
+ 
+ def mergesort(array):
+-    debug_print(array=array)
+     if len(array) <= 1:
+         return array
+ 
+     m = len(array) // 2
+-    debug_print(m=m)
+ 
+     left = mergesort(array[:m])
+     right = mergesort(array[m:])
